@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -12,13 +12,9 @@
     <Authors>David Le Bansais</Authors>
     <Company />
     <Copyright>Copyright © David Le Bansais 2019</Copyright>
-    <AssemblyVersion>1.0.0.4777</AssemblyVersion>
-    <FileVersion>1.0.0.317</FileVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <NoWarn>1701;1702;SA0001</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ApplicationIcon>..\..\Easly-Edit\main.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
